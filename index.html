@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Discord Webhook Sender</title>
+  <meta name="author" content="Psycho_Fan">
+  <meta name="description" content="Simple Discord Webhook Sender">
+  <meta name="keywords" content="discord,webhook,spammer,free">
+  <meta name="title" content="Discord Webhook Sender">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  </head>
+  <body>
+<script>
+  function deletewebhook() {
+    console.log(document.getElementsByName('deleteurl'))
+    var deleteurl = document.getElementById("deleteurl").value;
+    $.ajax({
+      type: "DELETE",
+      url: deleteurl,
+    });
+  }
+  </script>
+    <div id="header">
+      <h id="head">Discord Webhook Sender</h>
+    </div>
+    <div id="container">
+      <div class="center-align">
+        <p id="web">Webhook Link #1:</p><input type='text' id="link1" placeholder="Type Webhook URL #1">
+        <p id="web">Webhook Link #2:</p><input type='text' id="link2" placeholder="Type Webhook URL #2">
+        <p id="web">Webhook Link #3:</p><input type='text' id="link3" placeholder="Type Webhook URL #3">
+        <p id="web">Webhook Link #4:</p><input type='text' id="link4" placeholder="Type Webhook URL #4">
+        <p id="web">Webhook Link #5:</p><input type='text' id="link5" placeholder="Type Webhook URL #5">
+        <p id="web">Webhook Link #6:</p><input type='text' id="link6" placeholder="Type Webhook URL #6">
+        <p id="web">Bot Username:</p><input type="text" id="username" placeholder="Type the Username of the Webhook here * OPTIONAL" value="WebHook Sender">
+        <p id="web">Avatar URL:</p><input type="text" id="avatar" placeholder="Image URL">
+        <p id="web">Content:</p><input type="text" id="content" placeholder="Type the Content of the Webhook here">
+        <br>
+        <button id="btn">Send</button>
+        <p id="web">Webhook deleter:</p><input type="url" placeholder="Type Webhook URL" name = "deleteurl" id="deleteurl">
+        <button id="delbutton" onclick="deletewebhook()">Delete</button>
+    </div>
+  </div> 
+  </div>
+ <script src="jquery.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>

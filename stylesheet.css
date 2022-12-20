@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+* {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background: #685f5f;
+}
+
+#container {
+    margin-top: 80px;
+    margin: auto;
+    margin-right: 25px;
+    margin-left: 25px;
+    box-shadow: 7px 7px #0000006c;
+    background: rgb(85, 85, 85); 
+    padding: 25px;
+}
+
+#header {
+    text-align: center;
+    margin-top: 47px;
+    margin: auto;
+    font-size: 50px
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.37); 
+    color: white;
+    text-align: center;
+}
+
+.center-align {
+    text-align: center;
+}
+
+p {
+    font-size: 27px;
+}
+
+a, a:visited {
+    color: rgb(129, 129, 129)
+}
+
+#link1, #link2, #link3, #link4, #link5, #link6 {
+    font-size: 25px;
+    background-color: #4e4e4e;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid #000000c9;
+    border-radius: 15%;
+    border-style: dashed;
+    border-color: rgb(165, 161, 161);
+    color: rgb(6, 206, 206);
+}
+
+#deleteurl {
+    font-size: 25px;
+    background-color: #4e4e4e;
+    width: 15%;
+    padding: 13px;
+    border: 2px solid #000000c9;
+    border-radius: 15%;
+    border-style: dashed;
+    color: rgb(6, 206, 206);
+}
+
+#btn {
+    width: 27%;
+    font-size: 25px;
+    margin-top: 25px;
+    padding: 17px;
+    background-color: #1d6e6e;
+    border: 2px solid #000000c9;
+    border-radius: 15%;
+    border-style: dashed;
+}
+
+#delbutton {
+    width: 7%;
+    font-size: 25px;
+    margin-top: 25px;
+    padding: 13px;
+    background-color: #1d6e6e;
+    border: 2px solid #000000c9;
+    border-radius: 15%;
+    border-style: dashed;
+}
+
+#btn:hover { 
+    background-color: #365a3f;
+    border-radius: 15%;
+}
+
+#delbutton:hover { 
+    background-color: #365a3f;
+    border-radius: 15%;
+}
+
+#username, #content, #avatar {
+    font-size: 25px;
+    background-color: #4e4e4e;
+    width: 35%;
+    padding: 20px;
+    border: 2px solid #000000c9;
+    border-radius: 15%;
+    border-style: dashed;
+    border-color: rgb(6, 206, 206);;
+}
+
+#web, #username, #content, #avatar, #btn, #delbutton, #deleteurl {
+    color: rgb(6, 206, 206);
+    border-color: rgb(6, 206, 206);
+}
+
+#head {
+    color: rgb(6, 206, 206);
+}
